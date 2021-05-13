@@ -15,9 +15,9 @@ object Form1: TForm1
   TextHeight = 13
   object btnEx01: TButton
     Left = 136
-    Top = 32
+    Top = 24
     Width = 75
-    Height = 33
+    Height = 41
     Caption = 'Ex. 1'
     TabOrder = 0
     OnClick = btnEx01Click
@@ -30,5 +30,14 @@ object Form1: TForm1
     Caption = 'Ex. 2'
     TabOrder = 1
     OnClick = btnEx2Click
+  end
+  object Button1: TButton
+    Left = 136
+    Top = 152
+    Width = 75
+    Height = 41
+    Caption = 'Ex. 3'
+    TabOrder = 2
+    OnClick = Button1Click
   end
 end
